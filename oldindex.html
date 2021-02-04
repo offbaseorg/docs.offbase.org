@@ -1,0 +1,171 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Offbase" />
+<meta name="twitter:description" content="Publishing platform without a server" />
+<meta name="twitter:image" content="https://offbase.org/offbased.png" />
+<meta property="og:url" content="https://offbase.org" />
+<meta property="og:type"   content="website" />
+<meta property="og:title" content="Offbase" />
+<meta property="og:description" content="Publishing platform without a server" />
+<meta property="og:image" content="https://offbase.org/offbased.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<style>
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: rgba(0,0,0,0.8);
+  margin: 0;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 80px 0;
+  text-align: center;
+  font-family: Sans-serif;
+}
+.container > * {
+  margin: 20px 0;
+}
+h1 {
+  font-family: Georgia;
+  font-size: 50px;
+}
+.subtitle {
+  opacity: 0.8;
+
+}
+.video {
+  margin-top: 50px;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.signup {
+  max-width: 600px;
+  padding: 50px;
+  margin: 0 auto;
+  background: ghostwhite;
+  text-align: left;
+}
+.button {
+  padding: 5px 15px;
+  /*
+  border: 1px solid rgba(0,0,0,0.8);
+  color: rgba(0,0,0,0.8);
+  border-radius: 2px;
+  */
+  border-radius: 2px;
+  color: white;
+  background: rgba(0,0,0,0.8);
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px;
+  -webkit-appearance: none;
+}
+.logo {
+  width: 200px;
+}
+.row h2 {
+  font-size: 30px;
+  letter-spacing: -1px;
+  margin: 20px 0;
+}
+.row h3 {
+  font-size: 25px;
+  margin: 0;
+}
+.row h4 {
+  color: rgba(0,0,0,0.4);
+  margin: 0;
+}
+.row ol {
+  padding-inline-start: 20px;
+}
+.row {
+  border-top: 1px solid rgba(0,0,0,0.04);
+  text-align: left;
+  margin: 20px auto !important;
+}
+.items {
+/*
+  display: flex;
+  */
+}
+.item img {
+  width: 100%;
+}
+.item {
+/*
+  flex: 1 1 0px;
+  */
+  padding: 10px 0;
+}
+</style>
+</head>
+<body>
+<div class='container'>
+<img class='logo' src='/offbaselogo.png'>
+<div class='subtitle'>Edge Network Publishing Platform</div>
+<div>
+  <a href="https://offbase.vercel.app" class='button'>Example</a>
+  <a href="/invite" class='button'>Learn more</a>
+  <a href="/invite" class='button'>Request invite</a>
+</div>
+<div class='paragraph'>Offbase is a self contained serverless publishing platform that lets you publish content online without maintaining a server or joining a service.</div>
+<div class='video'>
+  <iframe src="https://www.youtube.com/embed/pVrkrToSFyI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<main>
+  <div class='row'>
+    <h1>How is Offbase different?</h1>
+    <div class='items'>
+      <div class='item'>
+        <h3>1. Serverless Storage</h3>
+        <h4>Powered by Git</h4>
+        <div>Instead of storing your content in a centralized DB, store content in your own Git, a distributed version control system.</div>
+      </div>
+      <div class='item'>
+        <h3>3. Serverless CMS</h3>
+        <h4>Powered by Service Worker</h4>
+        <div>Unlike traditional online CMS which all require a server, Offbase purely in the browser and doesn't need a server.</div>
+      </div>
+      <div class='item'>
+        <h3>2. Serverless Publishing</h3>
+        <h4>Powered by CDN</h4>
+        <div>Publish straight to distributed CDNs such as Cloudflare, GitHub Pages, Netlify, Vercel, etc.</div>
+      </div>
+    </div>
+  </div>
+  <div class='row'>
+    <h1>Serverless Publishing</h1>
+    <div class='items'>
+      <div class='item'>
+        <h2>Cloud Publishing</h2>
+        <div>Cloud publishing platforms like Wordpress, Squarespace, Ghost, Medium, Wix, etc. all require a centralized server and a database.</div>
+        <img src="/centralpub.gif">
+      </div>
+      <div class='item'>
+        <h2>Edge Publishing</h2>
+        <div>Offbase publishes content to the edge CDN (Content Delivery Network), and there is no centralized server or database.</div>
+        <img src="/edgepub.gif">
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+</body>
+</html>
