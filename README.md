@@ -67,6 +67,7 @@ There is **no special web app framework and no special markup language** (all of
 
 To implement self contained modules it uses browser native ES modules instead of backend-compiled JavaScript bundles.
 
+
 ---
 
 # Example
