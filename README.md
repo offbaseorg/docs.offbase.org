@@ -1,4 +1,4 @@
-# Introduction
+# Offbase
 
 Offbase is a new approach to building web apps, backed by git (distributed) instead of relying on a server (centralized). With Offbase you can build web apps without a server.
 
@@ -10,6 +10,7 @@ Official documentation with full API is coming soon! If you're interested, stay 
 <ol>
 <li><a href="https://offbase.org/invite">Newsletter</a>: receive occasional updates and digest</li>
 <li><a href="https://twitter.com/skogard">Twitter</a>: follow the raw development process, participate in conversations, and ask questions.</li>
+<li><a href="https://discord.gg/sa24u6eRh6">Discord</a>: ask questions.</li>
 </ol>
 </blockquote>
 
